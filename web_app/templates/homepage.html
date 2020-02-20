@@ -1,0 +1,37 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>The Homepage</title>
+</head>
+<body>
+
+    <h1>Welcome to the Homepage</h1>
+
+    <p>What's your name and where are you from?</p>
+
+    <form action="/users/create" method="post">
+        <label>Name:</label>
+        <input type='text' name='name' placeholder='username'>
+
+        <label>Country:</label>
+        <select name='country'</label>
+          <option value='USA'>United States</option>
+          <option value='UK'>United Kingdom</option>
+          <option value='Japan'>Japan</option>
+        </select>
+
+        <button>Submit</button>
+    </form>
+
+    <h2>Already done?  Share a tweet!</h2>
+
+    <a href='/tweets'>
+
+      <button>Tweet a status update!</button>
+    </a>
+
+</body>
+</html>

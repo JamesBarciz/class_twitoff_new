@@ -1,0 +1,33 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>The Tweet Page</title>
+</head>
+<body>
+
+    <h1>What's Going On?</h1>
+
+    <p>Tell Us!</p>
+
+    <form action="/tweets/create" method="post">
+        <label>Status:</label>
+        <input type='text' name='tweet' placeholder="I'm feeling...">
+
+        <label>Mood:</label>
+        <select name='mood'</label>
+          <option value='Awesome'>Awesome! 😁</option>
+          <option value='Well'>Well 🙂</option>
+          <option value='Okay'>Okay... 😶</option>
+          <option value='Unhappy'>Unhappy 🙁</option>
+          <option value='Sad'>Sad 😢</option>
+          <option value='Terrible'>Terrible! 😫</option>
+        </select>
+
+        <button>Tweet!</button>
+    </form>
+
+</body>
+</html>
